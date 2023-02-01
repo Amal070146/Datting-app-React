@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,400;1,500&display=swap");
+
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.primary-button {
+  color: white;
+  text-transform: uppercase;
+  font-size: 15px;
+  background: linear-gradient(45deg, #fe3072, #ff5948);
+  padding: 12px 30px;
+  border: none;
+  border-radius: 30px;
+}
+
+.primary-button:hover {
+  background: linear-gradient(30deg, #ff5948, #fe3072);
+}
+
+body {
+  text-align: center;
+}
+
+/* -------------nav---------- */
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav .nav-button{
+    color: rgb(254,48,114);
+    background-color:rgb(255, 255, 255) ;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+}
+
+nav .logo-container {
+  width: 170px;
+  margin: 25px 50px;
+  height: 15px;
+}
+
+nav .logo-container .logo {
+  width: 50%;
+}
+
+/*---------home page-------*/
+
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.65) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+
+/*---------auth modal-------*/
+.auth-modal{
+  position: absolute;
+  top: 175px;
+  justify-content: center;
+  max-width: 360px;
+  height: 600px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 40px;
+}
